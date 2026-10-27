@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "tokentracky" do
-  version "0.1.0"
-  sha256 "1c50688f053ede61ea0039227e198af22e0b8088a3ae4a7de96eee78a7243851"
+  version "0.1.1"
+  sha256 "afe520ccf425feec5651c6d215b4291ab4f2d7dabe0c88675b97029a1297b375"
 
   url "https://github.com/AuvreyDurelle/tokentracky/releases/download/v#{version}/tokentracky-#{version}-macos-arm64.dmg"
   name "Tokentracky"
