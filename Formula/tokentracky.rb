@@ -9,7 +9,7 @@ class Tokentracky < Formula
   sha256 "d948406c8e6baf8b3809639cc1ec556451d1e0bc528fce6f5a8c812c9d320ac6"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   def install
     bin.install "tokentracky-0.1.0-macos-arm64" => "tokentracky"
